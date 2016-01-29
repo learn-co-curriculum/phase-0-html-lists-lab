@@ -4,4 +4,4 @@
 
 <p><a href="https://www.youtube.com/watch?v=2IIhsgcNU-M">HTML Lists</a></p>.
 
-<a href='https://learn.co/lessons/html-lists' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-lists' title='HTML Lists'>HTML Lists</a> on Learn.co and start learning to code for free.</p>
