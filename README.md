@@ -4,8 +4,18 @@
 
 If you already have a personal repository:
 
-* In the terminal, type `git clone https://github.com/<your_username_here>/exceptional-realty`
-* A folder with your previous work will appear in the IDE file tree.
+* Open the Learn IDE, and in the terminal, type
+
+```
+git clone https://github.com/<your_username_here>/exceptional-realty
+cd exceptional-realty
+git fetch --all
+git checkout main-pages
+```
+
+* A folder with your previous work will appear in the IDE file tree, all
+  remote branches will be retrieved, and you will then switch to the
+  `main-pages` branch we started in the previous lesson.
 
 If you want to use the demo repository to follow along:
 
@@ -22,9 +32,13 @@ If you want to use the demo repository to follow along:
 
 ### `<ul>`, `<li>`
 
-In our `real-estate-listings.html` page, under the `<h4>2014</h4>` tag we added in the previous lesson, we should add some months in a list. In HTML, we can list things using the `<ul>` tag, which stands for _unordered list_, along with the `<li>` tag, _list item_.
+In our `real-estate-listings.html` page, under the `<h4>2014</h4>` tag we added
+in the previous lesson, we should add some months in a list. In HTML, we can
+list things using the `<ul>` tag, which stands for _unordered list_, along with
+the `<li>` tag, _list item_.
 
-To make a list, we write out the opening and closing `<ul>` tags, and inside them, we'll add `<li>` tags, each listing a single month.
+To make a list, we write out the opening and closing `<ul>` tags, and inside
+them, we'll add `<li>` tags, each listing a single month.
 
 `<ul>
 
@@ -33,7 +47,9 @@ To make a list, we write out the opening and closing `<ul>` tags, and inside the
   <li>Oct</li>
 </ul>`
 
-Lists are very flexible and we can even nest lists inside of lists, so if we wanted to add specific dates to a month, we could put a list inside of our October list:
+Lists are very flexible and we can even nest lists inside of lists, so if we
+wanted to add specific dates to a month, we could put a list inside of our
+October list:
 
 ```
 <ul>
@@ -48,11 +64,15 @@ Lists are very flexible and we can even nest lists inside of lists, so if we wan
 </ul>
 ```
 
-If we save this and check it out in the browser, we'll see that `ul` produces a bulleted list on the page, and will display nested lists indented further from the left.
+If we save this and check it out in the browser, we'll see that `ul` produces a
+bulleted list on the page, and will display nested lists indented further from
+the left.
 
 ### `<ol>`
 
-The other type of list is the _ordered list_, which is written as `<ol>` instead of `<ul>`. Both will include `<li>` tags inside, but this time, `<ol>` will display a numbered list instead of bullets:
+The other type of list is the _ordered list_, which is written as `<ol>`
+instead of `<ul>`. Both will include `<li>` tags inside, but this time, `<ol>`
+will display a numbered list instead of bullets:
 
 ```
 <h3>Popular Listings</h3>
@@ -65,7 +85,8 @@ The other type of list is the _ordered list_, which is written as `<ol>` instead
 
 ### Add, Commit, Push
 
-If you're working from your own repository, make sure to add, commit and push up your work before moving on!
+If you're working from your own repository, make sure to add, commit and push
+up your work before moving on!
 
 ```
 git add .
