@@ -38,18 +38,20 @@ list things using the `<ul>` tag, which stands for _unordered list_, along with
 the `<li>` tag, _list item_.
 
 To make a list, we write out the opening and closing `<ul>` tags, and inside
-them, we'll add `<li>` tags, each listing a single month.
+them, we'll add `<li>` tags, each listing a single month:
 
-`<ul>
+```
+<ul>
 
   <li>Dec</li>
   <li>Nov</li>
   <li>Oct</li>
-</ul>`
+</ul>
+```
 
 Lists are very flexible and we can even nest lists inside of lists, so if we
 wanted to add specific dates to a month, we could put a list inside of our
-October list:
+`Oct` list item:
 
 ```
 <ul>
@@ -64,14 +66,16 @@ October list:
 </ul>
 ```
 
-If we save this and check it out in the browser, we'll see that `ul` produces a
-bulleted list on the page, and will display nested lists indented further from
-the left.
+Save your file, start up `httpserver`, and on the browser tab where you've got
+the server displaying our webpage, add `/real-estate-listings.html` to the end
+of the URL path to see our Listings page. In the browser, we'll see that `ul`
+produces a bulleted list on the page, and will display nested lists indented
+further from the left.
 
 ### `<ol>`
 
 The other type of list is the _ordered list_, which is written as `<ol>`
-instead of `<ul>`. Both will include `<li>` tags inside, but this time, `<ol>`
+instead of `<ul>`. Both use `<li>` tags inside, but this time, `<ol>`
 will display a numbered list instead of bullets:
 
 ```
@@ -83,6 +87,9 @@ will display a numbered list instead of bullets:
 </ol>
 ```
 
+Add the above to your Listings page, save and check out your live page to see
+the difference.
+
 ### Add, Commit, Push
 
 If you're working from your own repository, make sure to add, commit and push
@@ -90,7 +97,7 @@ up your work before moving on!
 
 ```
 git add .
-git commit -m 'started real-estate-listings.html'
+git commit -m 'add lists to real-estate-listings.html'
 git push
 ```
 
