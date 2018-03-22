@@ -10,9 +10,9 @@ If you already have a personal repository:
 If you want to use the demo repository to follow along:
 
 * In your terminal, type `git clone https://github.com/learn-co-curriculum/exceptional-realty-demo`.
-* Type `cd exceptional-realy-demo` to navigate into the folder.
-* Type `git fetch text-formatting`, the branch for this lesson.
-* Type `git checkout text-formatting`, and you're good to go!
+* Type `cd exceptional-realty-demo` to navigate into the folder.
+* Type `git fetch html-lists`, the branch for this lesson.
+* Type `git checkout html-lists`, and you're good to go!
 
 **Remember to use `httpserver` to live test your webpage**
 
@@ -65,7 +65,7 @@ The other type of list is the _ordered list_, which is written as `<ol>` instead
 
 ### Add, Commit, Push
 
-Make sure to add, commit and push up your work before moving on!
+If you're working from your own repository, make sure to add, commit and push up your work before moving on!
 
 ```
 git add .
