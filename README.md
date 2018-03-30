@@ -19,10 +19,12 @@ git checkout main-pages
 
 If you want to use the demo repository to follow along:
 
-* In your terminal, type `git clone https://github.com/learn-co-curriculum/exceptional-realty-demo`.
-* Type `cd exceptional-realty-demo` to navigate into the folder.
-* Type `git fetch html-lists`, the branch for this lesson.
-* Type `git checkout html-lists`, and you're good to go!
+```
+git clone https://github.com/learn-co-curriculum/exceptional-realty-demo
+cd exceptional-realty-demo
+git fetch html-lists
+git checkout html-lists
+```
 
 **Remember to use `httpserver` to live test your webpage**
 
