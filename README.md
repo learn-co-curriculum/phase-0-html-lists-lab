@@ -44,7 +44,6 @@ them, we'll add `<li>` tags, each listing a single month:
 
 ```
 <ul>
-
   <li>Dec</li>
   <li>Nov</li>
   <li>Oct</li>
