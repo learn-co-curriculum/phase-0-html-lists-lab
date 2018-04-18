@@ -1,38 +1,16 @@
 # HTML Lists
 
-### Cloning Down Your Repository
+## Objectives
 
-If you already have a personal repository:
+  - Learn the basics of HTML list elements
 
-* Open the Learn IDE, and in the terminal, type
-
-```
-git clone https://github.com/<your_username_here>/exceptional-realty
-cd exceptional-realty
-git fetch --all
-git checkout main-pages
-```
-
-* A folder with your previous work will appear in the IDE file tree, all
-  remote branches will be retrieved, and you will then switch to the
-  `main-pages` branch we started in the previous lesson.
-
-If you want to use the demo repository to follow along:
-
-```
-git clone https://github.com/learn-co-curriculum/exceptional-realty-demo
-cd exceptional-realty-demo
-git fetch html-lists
-git checkout html-lists
-```
-
-**Remember to use `httpserver` to live test your webpage**
-
-<iframe width="640" height="480" src="//www.youtube.com/embed/2IIhsgcNU-M?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-
-<p><a href="https://www.youtube.com/watch?v=2IIhsgcNU-M">HTML Lists</a></p>.
+<p align="center">
+  <img src="https://i.imgflip.com/28mpcx.jpg"/>
+</p>
 
 ### `<ul>`, `<li>`
+
+**Remember to use `httpserver` to live test your webpage**
 
 In our `real-estate-listings.html` page, under the `<h4>2014</h4>` tag we added
 in the previous lesson, we should add some months in a list. In HTML, we can
@@ -42,7 +20,7 @@ the `<li>` tag, _list item_.
 To make a list, we write out the opening and closing `<ul>` tags, and inside
 them, we'll add `<li>` tags, each listing a single month:
 
-```
+```HTML
 <ul>
   <li>Dec</li>
   <li>Nov</li>
@@ -50,11 +28,11 @@ them, we'll add `<li>` tags, each listing a single month:
 </ul>
 ```
 
-Lists are very flexible and we can even nest lists inside of lists, so if we
+Lists are very flexible and we can even nest lists inside of lists. If we
 wanted to add specific dates to a month, we could put a list inside of our
 `Oct` list item:
 
-```
+```HTML
 <ul>
   <li>Dec</li>
   <li>Nov</li>
@@ -79,7 +57,7 @@ The other type of list is the _ordered list_, which is written as `<ol>`
 instead of `<ul>`. Both use `<li>` tags inside, but this time, `<ol>`
 will display a numbered list instead of bullets:
 
-```
+```HTML
 <h3>Popular Listings</h3>
 <ol>
   <li>348 Stockton St.</li>
@@ -90,16 +68,5 @@ will display a numbered list instead of bullets:
 
 Add the above to your Listings page, save and check out your live page to see
 the difference.
-
-### Add, Commit, Push
-
-If you're working from your own repository, make sure to add, commit and push
-up your work before moving on!
-
-```
-git add .
-git commit -m 'add lists to real-estate-listings.html'
-git push
-```
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-lists' title='HTML Lists'>HTML Lists</a> on Learn.co and start learning to code for free.</p>
