@@ -15,7 +15,8 @@ I.g. if we see an `h1` tag, we know that we're looking at _big_ page header.
 
 In this lesson, we're going to be looking at a few new tags that help us
 organize _lists_ of related content.  Lets say, for instance, we were building a
-personal website and wanted to list out our favorite foods. We _could_ write this like so:
+personal website and wanted to list out our favorite foods. We _could_ write
+this like so:
 
 ```html
 <body>
@@ -51,7 +52,9 @@ In HTML, we create lists using the `<ul>` tag, which stands for _unordered
 list_, along with the `<li>` tag for each _list item_.
 
 To make a list, we write out the opening and closing `<ul>` tags, and inside
-them, we'll add `<li>` tags, each listing a single month. Going back to our favorite foods example, if we wanted convert it to a list, it would look like this:
+them, we'll add `<li>` tags, each listing a single month. Going back to our
+favorite foods example, if we wanted convert it to a list, it would look like
+this:
 
 ```HTML
 <ul>
@@ -64,9 +67,12 @@ them, we'll add `<li>` tags, each listing a single month. Going back to our favo
 </ul>
 ```
 
-Now, instead of just having each item show up on a new line, the content will also be slightly indented and a bullet will appear next to each of them.  
+Now, instead of just having each item show up on a new line, the content will
+also be slightly indented and a bullet will appear next to each of them.  
 
-Lists are very flexible and we can even nest lists _inside_ of lists. Say we wanted to breakdown our favorite foods by category. We may have multiple categories and one or more items in _each_:
+Lists are very flexible and we can even nest lists _inside_ of lists. Say we
+wanted to breakdown our favorite foods by category. We may have multiple
+categories and one or more items in _each_:
 
 ```HTML
 <ul>
@@ -101,20 +107,32 @@ us to easily display related and nested content in a readable format.
 
 ### Challenge 1
 
-Start up `httpserver` or open `index.html` in your browser. Let's say we wanted to list out the ingredients required for making a grilled cheese sandwich.  The ingredients are: `2 slices of bread`, `4 slices cheese`, `1 tbsp of butter`.  
+Start up `httpserver` or open `index.html` in your browser. Let's say we wanted
+to list out the ingredients required for making a grilled cheese sandwich.  The
+ingredients are: `2 slices of bread`, `4 slices cheese`, `1 tbsp of butter`.  
 
-For the first part of this challenge, in `index.html`, create an unordered list that displays these ingredients. Run `learn` to see if you can pass the first test.
+For the first part of this challenge, in `index.html`, create an unordered list
+that displays these ingredients. Run `learn` to see if you can pass the first
+test.
 
-Okay, now, lets say we wanted to make our grilled cheese a little more exciting and add a couple of cheeses, `cheddar`, `mozzarella`, and `pepper jack`.  
+Okay, now, lets say we wanted to make our grilled cheese a little more exciting
+and add a couple of cheeses, `cheddar`, `mozzarella`, and `pepper jack`.  
 
-To pass the second test, inside the `li` of `4 slices of cheese`, add a nested unordered list that lists out the three types of cheese.
+To pass the second test, inside the `li` of `4 slices of cheese`, add a nested
+unordered list that lists out the three types of cheese.
 
-If your first two tests are passing, great! It's time to talk about another type of list!
+If your first two tests are passing, great! It's time to talk about another type
+of list!
 
 ### `<ol>`
 
-Unordered lists are great for organizing related content where it doesn't matter what goes first, like in our grilled cheese ingredients.  In situations where we _want_ items to be displayed in a specific, numbered order, we will want to use the _ordered list_ tag, which is written as `<ol>` instead of `<ul>`. Both use `<li>` tags inside, but this time, `<ol>`
-will display a numbered list instead of bullets. If say, we wanted to write a _ranked_ list of favorite foods, it might look like:
+Unordered lists are great for organizing related content where it doesn't matter
+what goes first, like in our grilled cheese ingredients.  In situations where we
+_want_ items to be displayed in a specific, numbered order, we will want to use
+the _ordered list_ tag, which is written as `<ol>` instead of `<ul>`. Both use
+`<li>` tags inside, but this time, `<ol>` will display a numbered list instead
+of bullets. If say, we wanted to write a _ranked_ list of favorite foods, it
+might look like:
 
 ```HTML
 <h3>Top 5 Favorite Foods</h3>
@@ -127,11 +145,17 @@ will display a numbered list instead of bullets. If say, we wanted to write a _r
 </ol>
 ```
 
-Feel free to test this out by adding it to `index.html`, saving and refreshing the tab where the file is open. Now, `Grilled Cheese` will be displayed as `1. Grilled Cheese` as the #1 food (where it belongs).
+Feel free to test this out by adding it to `index.html`, saving and refreshing
+the tab where the file is open. Now, `Grilled Cheese` will be displayed as `1.
+Grilled Cheese` as the #1 food (where it belongs).
 
-Nested ordered lists works the same as unordered, but instead of hollow and square bullets, each nested list will still display numebrs.
+Nested ordered lists works the same as unordered, but instead of hollow and
+square bullets, each nested list will still display numebrs.
 
-**Note:** In a nested list, you _must_ provide the `ol` or `ul` wrapper.  Otherwise, an `li` inside another `li` will just be displayed as two items at the same level.  This is because technically, you do not need to write a closing `li` tag.  The following example will be displayed the same as the previous:
+**Note:** In a nested list, you _must_ provide the `ol` or `ul` wrapper.  Otherwise, an
+`li` inside another `li` will just be displayed as two items at the same level.
+This is because technically, you do not need to write a closing `li` tag.  The
+following example will be displayed the same as the previous:
 
 ```HTML
 <h3>Top 5 Favorite Foods</h3>
@@ -146,8 +170,25 @@ Nested ordered lists works the same as unordered, but instead of hollow and squa
 
 ### Challenge 2
 
-Okay, so we've got our grilled cheese ingredients, but what about the steps requires to make a grilled cheese? Steps to a recipe would definitely need to be in order, otherwise we may end up with burnt cheese, covered in bread and topped with a square of butter. The steps to making a basic grilled cheese would be: `Spread butter on bread and frying pan`, `Place bread in frying pan and fry`, `Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and fry for 2 minutes`
+Okay, so we've got our grilled cheese ingredients, but what about the steps
+requires to make a grilled cheese? Steps to a recipe would definitely need to be
+in order, otherwise we may end up with burnt cheese, covered in bread and topped
+with a square of butter. The steps to making a basic grilled cheese would be:
+`Spread butter on bread and frying pan`, `Place bread in frying pan and fry`,
+`Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and
+fry for 2 minutes`
 
-Write an ordered list that displays these 5 steps correctly.  Run `learn` to see if you've passed.
+Write an ordered list that displays these 5 steps correctly.  Run `learn` to see
+if you've passed.
+
+### Conclusion
+
+Lists in HTML are very useful for organizing related content, and are really the
+only way indicate that content is related with basic HTML.  Using unordered
+lists ends up being very useful for more than just listing favorite foods and
+ingredients because.  Its possible, for instance, to use list elements to
+organize navigation links - with styling, we make the content look however we
+want; remove the bullets, make them line up horizontally.. but in our HTML, they
+will still be organized and easy to read.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-lists' title='HTML Lists'>HTML Lists</a> on Learn.co and start learning to code for free.</p>
