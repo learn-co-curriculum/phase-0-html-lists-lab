@@ -40,10 +40,6 @@ not any other styling. Using the built in `ul`, `ol` and `li` HTML tags however,
 we can wrap related list content together while also getting some automatic
 styling.
 
-<p align="center">
-  <img src="https://i.imgflip.com/28mpcx.jpg"/>
-</p>
-
 ### `<ul>`, `<li>`
 
 **Remember to use `httpserver` to live test your webpage**
@@ -125,6 +121,10 @@ If your first two tests are passing, great! It's time to talk about another type
 of list!
 
 ### `<ol>`
+
+<p align="center">
+  <img src="https://i.imgflip.com/28mpcx.jpg"/>
+</p>
 
 Unordered lists are great for organizing related content where it doesn't matter
 what goes first, like in our grilled cheese ingredients.  In situations where we
