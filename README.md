@@ -39,10 +39,6 @@ not any other styling. Using the built in `ul`, `ol` and `li` HTML tags however,
 we can wrap related list content together while also getting some automatic
 styling.
 
-<p align="center">
-  <img src="https://i.imgflip.com/28mpcx.jpg"/>
-</p>
-
 ### `<ul>`, `<li>`
 
 **Remember to use `httpserver` to live test your webpage**
@@ -112,6 +108,10 @@ To pass the second test, inside the `li` of `4 slices of cheese`, add a nested u
 If your first two tests are passing, great! It's time to talk about another type of list!
 
 ### `<ol>`
+
+<p align="center">
+  <img src="https://i.imgflip.com/28mpcx.jpg"/>
+</p>
 
 Unordered lists are great for organizing related content where it doesn't matter what goes first, like in our grilled cheese ingredients.  In situations where we _want_ items to be displayed in a specific, numbered order, we will want to use the _ordered list_ tag, which is written as `<ol>` instead of `<ul>`. Both use `<li>` tags inside, but this time, `<ol>`
 will display a numbered list instead of bullets. If say, we wanted to write a _ranked_ list of favorite foods, it might look like:
