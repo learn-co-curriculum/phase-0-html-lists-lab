@@ -1,13 +1,5 @@
 # HTML Lists
 
-## Objectives
-
-1. Learn The Basics Of HTML List Elements
-2. Create unordered and ordered HTML lists
-3. Reinforce our understanding of unordered lists through creation
-4. Introduce the ordered list tag
-5. Reinforce our understanding of ordered lists through creation
-
 ## Problem Statement
 
 Many HTML tags behave in unique ways. Some apply automatic styling, like `p`
@@ -18,6 +10,16 @@ tag, we know that we're looking at _big_ page header.
 
 In this lesson, we're going to be looking at a few new tags that help us
 organize _lists_ of related content.
+
+## Objectives
+
+1. Learn The Basics Of HTML List Elements
+2. Create unordered and ordered HTML lists
+3. Reinforce our understanding of unordered lists through creation
+4. Introduce the ordered list tag
+5. Reinforce our understanding of ordered lists through creation
+
+
 ## Create Unordered And Ordered HTML Lists
 
 Lets say, for instance, we were building a personal website and wanted to list
