@@ -2,10 +2,10 @@
 
 ## Objectives
 
-  - Learn the basics of HTML list elements
-  - Create unordered and ordered HTML lists
+  1. Learn the basics of HTML list elements
+  2. Create unordered and ordered HTML lists
 
-## Introduction
+## Problem Statement
 
 Many HTML tags behave in unique ways. Some apply automatic styling, like `p`
 tags that create margins around text.  Some, like the header tags, increase the
@@ -40,9 +40,7 @@ not any other styling. Using the built in `ul`, `ol` and `li` HTML tags however,
 we can wrap related list content together while also getting some automatic
 styling.
 
-### `<ul>`, `<li>`
-
-**Remember to use `httpserver` to live test your webpage**
+## Introduce Unordered Lists and List Item Tags
 
 In HTML, we create lists using the `<ul>` tag, which stands for _unordered
 list_, along with the `<li>` tag for each _list item_.
@@ -101,7 +99,7 @@ a solid bullet, they will appear with hollow bullets, indicating a sublist.
 Adding nested list one level deeper will make _square_ bullets appear, allowing
 us to easily display related and nested content in a readable format.
 
-### Challenge 1
+## Reinforce Our Understanding Of Unordered Lists Through Creation
 
 Start up `httpserver` or open `index.html` in your browser. Let's say we wanted
 to list out the ingredients required for making a grilled cheese sandwich.  The
@@ -120,7 +118,7 @@ unordered list that lists out the three types of cheese.
 If your first two tests are passing, great! It's time to talk about another type
 of list!
 
-### `<ol>`
+## Introduce the Ordered List Tag
 
 <p align="center">
   <img src="https://i.imgflip.com/28mpcx.jpg"/>
@@ -168,7 +166,7 @@ following example will be displayed the same as the previous:
 </ol>
 ```
 
-### Challenge 2
+## Reinforce Our Understanding Of Ordered Lists Through Creation
 
 Okay, so we've got our grilled cheese ingredients, but what about the steps
 requires to make a grilled cheese? Steps to a recipe would definitely need to be
@@ -181,7 +179,7 @@ fry for 2 minutes`
 Write an ordered list that displays these 5 steps correctly.  Run `learn` to see
 if you've passed.
 
-### Conclusion
+## Conclusion
 
 Lists in HTML are very useful for organizing related content, and are really the
 only way indicate that content is related with basic HTML.  Using unordered
