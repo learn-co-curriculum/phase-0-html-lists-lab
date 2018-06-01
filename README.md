@@ -2,45 +2,42 @@
 
 ## Objectives
 
-  1. Learn the basics of HTML list elements
-  2. Create unordered and ordered HTML lists
+1. Learn The Basics Of HTML List Elements
+2. Create unordered and ordered HTML lists
+3. Reinforce our understanding of unordered lists through creation
+4. Introduce the ordered list tag
+5. Reinforce our understanding of ordered lists through creation
 
 ## Problem Statement
 
 Many HTML tags behave in unique ways. Some apply automatic styling, like `p`
 tags that create margins around text.  Some, like the header tags, increase the
-font size. The benefit of using these tags is that it delineates our content -
-when reading HTML, using the correct tags informs us of what the content is.
-I.g. if we see an `h1` tag, we know that we're looking at _big_ page header.
+font size. Using these tags delineates our content. When reading HTML, using
+the correct tags informs us of what the content's purpose is. If we see an `h1`
+tag, we know that we're looking at _big_ page header.
 
 In this lesson, we're going to be looking at a few new tags that help us
-organize _lists_ of related content.  Lets say, for instance, we were building a
-personal website and wanted to list out our favorite foods. We _could_ write
-this like so:
+organize _lists_ of related content.
+## Create Unordered And Ordered HTML Lists
+
+Lets say, for instance, we were building a personal website and wanted to list
+out our favorite foods. We _could_ write this like so:
 
 ```html
 <body>
-  <div>
-    These are my favorite foods:
-  </div>
-  <div>  
-    <div>Ham and Cheese</div>
-    <div>Grilled Cheese</div>
-    <div>Nacho Cheese French Fries</div>
-    <div>Cheese soup</div>
-    <div>Cheese and crackers</div>
-    <div>Sushi</div>
-  </div>
+  <p>Ham and Cheese</p>
+  <p>Grilled Cheese</p>
+  <p>Nacho Cheese French Fries</p>
+  <p>Cheese soup</p>
+  <p>Cheese and crackers</p>
+  <p>Sushi</p>
 </body>
 ```
 
 The above would create a new line on the page for each food, but doesn't really
-indicate that these things are related.  Plus, this will _only_ make new lines,
-not any other styling. Using the built in `ul`, `ol` and `li` HTML tags however,
-we can wrap related list content together while also getting some automatic
-styling.
-
-## Introduce Unordered Lists and List Item Tags
+indicate that these things are related.  Using the built in `ul`, `ol` and `li`
+HTML tags however, we can group related list content together. We call such a
+grouping a "list."
 
 In HTML, we create lists using the `<ul>` tag, which stands for _unordered
 list_, along with the `<li>` tag for each _list item_.
@@ -62,7 +59,7 @@ this:
 ```
 
 Now, instead of just having each item show up on a new line, the content will
-also be slightly indented and a bullet will appear next to each of them.  
+also be slightly indented and a bullet will appear next to each of them.
 
 Lists are very flexible and we can even nest lists _inside_ of lists. Say we
 wanted to breakdown our favorite foods by category. We may have multiple
@@ -103,14 +100,14 @@ us to easily display related and nested content in a readable format.
 
 Start up `httpserver` or open `index.html` in your browser. Let's say we wanted
 to list out the ingredients required for making a grilled cheese sandwich.  The
-ingredients are: `2 slices of bread`, `4 slices cheese`, `1 tbsp of butter`.  
+ingredients are: `2 slices of bread`, `4 slices cheese`, `1 tbsp of butter`.
 
 For the first part of this challenge, in `index.html`, create an unordered list
 that displays these ingredients. Run `learn` to see if you can pass the first
 test.
 
 Okay, now, lets say we wanted to make our grilled cheese a little more exciting
-and add a couple of cheeses, `cheddar`, `mozzarella`, and `pepper jack`.  
+and add a couple of cheeses, `cheddar`, `mozzarella`, and `pepper jack`.
 
 To pass the second test, inside the `li` of `4 slices of cheese`, add a nested
 unordered list that lists out the three types of cheese.
