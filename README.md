@@ -103,6 +103,8 @@ ingredients are: `2 slices of bread`, `4 slices of cheese`, `1 tbsp of butter`.
 
 For the first part of this challenge, in `index.html`, create an unordered list
 that displays these ingredients. Run `learn` to see if you can pass the first
+test. If you've done things correctly, you'll now be passing the first test,
+but there are more tests to pass! We now need to turn our attention to the next
 test.
 
 Okay, now, lets say we wanted to make our grilled cheese a little more exciting
