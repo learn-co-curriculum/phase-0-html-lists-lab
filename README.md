@@ -100,7 +100,7 @@ us to easily display related and nested content in a readable format.
 
 Start up `httpserver` or open `index.html` in your browser. Let's say we wanted
 to list out the ingredients required for making a grilled cheese sandwich.  The
-ingredients are: `2 slices of bread`, `4 slices cheese`, `1 tbsp of butter`.
+ingredients are: `2 slices of bread`, `4 slices of cheese`, `1 tbsp of butter`.
 
 For the first part of this challenge, in `index.html`, create an unordered list
 that displays these ingredients. Run `learn` to see if you can pass the first
