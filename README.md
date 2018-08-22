@@ -6,7 +6,7 @@ Many HTML tags behave in unique ways. Some apply automatic styling, like `p`
 tags that create margins around text.  Some, like the header tags, increase the
 font size. Using these tags delineates our content. When reading HTML, using the
 correct tags informs us of what the content's purpose is. If we see an `h1` tag,
-we know that we're looking at _big_ page header. In this lesson, we're going to
+we know that we're looking at a _big_ page header. In this lesson, we're going to
 be looking at a few new tags that help us organize _lists_ of related content.
 
 ## Objectives
