@@ -141,9 +141,9 @@ might look like:
 </ol>
 ```
 
-Feel free to test this out by adding it to `index.html`, saving and refreshing
-the tab where the file is open. Now, `Grilled Cheese` will be displayed as `1.
-Grilled Cheese` as the #1 food (where it belongs).
+> Feel free to test this out by adding it to `index.html`, saving and refreshing
+> the tab where the file is open. Now, `Grilled Cheese` will be displayed as `1.
+> Grilled Cheese` as the #1 food (where it belongs).
 
 Nested ordered lists works the same as unordered, but instead of hollow and
 square bullets, each nested list will still display numebrs.
@@ -173,10 +173,10 @@ with a square of butter. The steps to making a basic grilled cheese would be:
 `Spread butter on bread and frying pan`, `Place bread in frying pan and fry`,
 `Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and
 fry for 2 minutes`
-
+***
 Write an ordered list that displays these 5 steps correctly.  Run `learn` to see
 if you've passed.
-
+***
 ## Conclusion
 
 Lists in HTML are very useful for organizing related content, and are really the
