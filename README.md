@@ -11,13 +11,13 @@ be looking at a few new tags that help us organize _lists_ of related content.
 
 ## Objectives
 
-1. Create unordered and ordered HTML lists
+1. What are unordered and ordered HTML Lists?
 2. Reinforce our understanding of unordered lists through creation
 3. Introduce the ordered list tag
 4. Reinforce our understanding of ordered lists through creation
 
 
-## Create Unordered And Ordered HTML Lists
+## What are Unordered And Ordered HTML Lists?
 
 Lets say, for instance, we were building a personal website and wanted to list
 out our favorite foods. We _could_ write this like so:
@@ -97,6 +97,11 @@ us to easily display related and nested content in a readable format.
 
 ## Reinforce Our Understanding Of Unordered Lists Through Creation
 
+The first part of this challenge is to make the first 2 tests pass by:
+
+1. Creating an unordered list 
+2. Nesting each grilled cheese ingredient as a list item wrapped in `<li>` tags
+
 Start up `httpserver` or open `index.html` in your browser. Let's say we wanted
 to list out the ingredients required for making a grilled cheese sandwich.  The
 ingredients are: `2 slices of bread`, `4 slices of cheese`, `1 tbsp of butter`.
@@ -166,6 +171,11 @@ following example will be displayed the same as the previous:
 
 ## Reinforce Our Understanding Of Ordered Lists Through Creation
 
+To complete the challenge write the necessary HTML to pass the tests:
+
+3. Create an ordered list 
+4. Nest each step for creating grilled cheese as a list item wrapped in `<li>` tags
+
 Okay, so we've got our grilled cheese ingredients, but what about the steps
 requires to make a grilled cheese? Steps to a recipe need to be
 in order, otherwise we may end up with burnt cheese covered in bread and topped
@@ -173,10 +183,12 @@ with a square of butter. The steps to making a basic grilled cheese would be:
 `Spread butter on bread and frying pan`, `Place bread in frying pan and fry`,
 `Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and
 fry for 2 minutes`
+
 ***
-Write an ordered list that displays these 5 steps correctly.  Run `learn` to see
-if you've passed.
+Once you've written an ordered list that displays these 5 steps correctly, run `learn` 
+to see the tests pass.
 ***
+
 ## Conclusion
 
 Lists in HTML are very useful for organizing related content, and are really the
