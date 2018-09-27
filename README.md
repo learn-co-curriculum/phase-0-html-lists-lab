@@ -1,24 +1,23 @@
 # HTML Lists
 
-## Objectives
-
-1. Learn The Basics Of HTML List Elements
-2. Create unordered and ordered HTML lists
-3. Reinforce our understanding of unordered lists through creation
-4. Introduce the ordered list tag
-5. Reinforce our understanding of ordered lists through creation
-
 ## Problem Statement
 
 Many HTML tags behave in unique ways. Some apply automatic styling, like `p`
 tags that create margins around text.  Some, like the header tags, increase the
-font size. Using these tags delineates our content. When reading HTML, using
-the correct tags informs us of what the content's purpose is. If we see an `h1`
-tag, we know that we're looking at _big_ page header.
+font size. Using these tags delineates our content. When reading HTML, using the
+correct tags informs us of what the content's purpose is. If we see an `h1` tag,
+we know that we're looking at a _big_ page header. In this lesson, we're going to
+be looking at a few new tags that help us organize _lists_ of related content.
 
-In this lesson, we're going to be looking at a few new tags that help us
-organize _lists_ of related content.
-## Create Unordered And Ordered HTML Lists
+## Objectives
+
+1. What are unordered and ordered HTML Lists?
+2. Reinforce our understanding of unordered lists through creation
+3. Introduce the ordered list tag
+4. Reinforce our understanding of ordered lists through creation
+
+
+## What are Unordered And Ordered HTML Lists?
 
 Lets say, for instance, we were building a personal website and wanted to list
 out our favorite foods. We _could_ write this like so:
@@ -98,12 +97,19 @@ us to easily display related and nested content in a readable format.
 
 ## Reinforce Our Understanding Of Unordered Lists Through Creation
 
+The first part of this challenge is to make the first 2 tests pass by:
+
+1. Creating an unordered list 
+2. Nesting each grilled cheese ingredient as a list item wrapped in `<li>` tags
+
 Start up `httpserver` or open `index.html` in your browser. Let's say we wanted
 to list out the ingredients required for making a grilled cheese sandwich.  The
 ingredients are: `2 slices of bread`, `4 slices of cheese`, `1 tbsp of butter`.
 
 For the first part of this challenge, in `index.html`, create an unordered list
 that displays these ingredients. Run `learn` to see if you can pass the first
+test. If you've done things correctly, you'll now be passing the first test,
+but there are more tests to pass! We now need to turn our attention to the next
 test.
 
 Okay, now, lets say we wanted to make our grilled cheese a little more exciting
@@ -140,9 +146,9 @@ might look like:
 </ol>
 ```
 
-Feel free to test this out by adding it to `index.html`, saving and refreshing
-the tab where the file is open. Now, `Grilled Cheese` will be displayed as `1.
-Grilled Cheese` as the #1 food (where it belongs).
+> Feel free to test this out by adding it to `index.html`, saving and refreshing
+> the tab where the file is open. Now, `Grilled Cheese` will be displayed as `1.
+> Grilled Cheese` as the #1 food (where it belongs).
 
 Nested ordered lists works the same as unordered, but instead of hollow and
 square bullets, each nested list will still display numebrs.
@@ -165,25 +171,32 @@ following example will be displayed the same as the previous:
 
 ## Reinforce Our Understanding Of Ordered Lists Through Creation
 
+To complete the challenge write the necessary HTML to pass the tests:
+
+3. Create an ordered list 
+4. Nest each step for creating grilled cheese as a list item wrapped in `<li>` tags
+
 Okay, so we've got our grilled cheese ingredients, but what about the steps
-requires to make a grilled cheese? Steps to a recipe would definitely need to be
-in order, otherwise we may end up with burnt cheese, covered in bread and topped
+requires to make a grilled cheese? Steps to a recipe need to be
+in order, otherwise we may end up with burnt cheese covered in bread and topped
 with a square of butter. The steps to making a basic grilled cheese would be:
 `Spread butter on bread and frying pan`, `Place bread in frying pan and fry`,
 `Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and
 fry for 2 minutes`
 
-Write an ordered list that displays these 5 steps correctly.  Run `learn` to see
-if you've passed.
+***
+Once you've written an ordered list that displays these 5 steps correctly, run `learn` 
+to see the tests pass.
+***
 
 ## Conclusion
 
 Lists in HTML are very useful for organizing related content, and are really the
 only way indicate that content is related with basic HTML.  Using unordered
 lists ends up being very useful for more than just listing favorite foods and
-ingredients because.  Its possible, for instance, to use list elements to
-organize navigation links - with styling, we make the content look however we
-want; remove the bullets, make them line up horizontally.. but in our HTML, they
-will still be organized and easy to read.
+ingredients.  Its possible, for instance, to use list elements to organize
+navigation links - with styling, we make the content look however we want:
+remove the bullets, make them line up horizontally, but in our HTML they will
+still be organized and easy to read.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-lists' title='HTML Lists'>HTML Lists</a> on Learn.co and start learning to code for free.</p>
