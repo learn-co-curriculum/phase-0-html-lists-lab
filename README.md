@@ -1,6 +1,13 @@
 # HTML Lists
 
-## Problem Statement
+## Learning Goals
+
+1. What are unordered and ordered HTML Lists?
+2. Reinforce our understanding of unordered lists through creation
+3. Introduce the ordered list tag
+4. Reinforce our understanding of ordered lists through creation
+
+## Introduction
 
 Many HTML tags behave in unique ways. Some apply automatic styling, like `p`
 tags that create margins around text.  Some, like the header tags, increase the
@@ -8,14 +15,6 @@ font size. Using these tags delineates our content. When reading HTML, using the
 correct tags informs us of what the content's purpose is. If we see an `h1` tag,
 we know that we're looking at a _big_ page header. In this lesson, we're going to
 be looking at a few new tags that help us organize _lists_ of related content.
-
-## Objectives
-
-1. What are unordered and ordered HTML Lists?
-2. Reinforce our understanding of unordered lists through creation
-3. Introduce the ordered list tag
-4. Reinforce our understanding of ordered lists through creation
-
 
 ## What are Unordered And Ordered HTML Lists?
 
