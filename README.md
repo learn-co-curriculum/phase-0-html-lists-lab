@@ -2,10 +2,10 @@
 
 ## Learning Goals
 
-1. What are unordered and ordered HTML Lists?
-2. Reinforce our understanding of unordered lists through creation
-3. Introduce the ordered list tag
-4. Reinforce our understanding of ordered lists through creation
+1. Recognize unordered and ordered HTML Lists
+2. Create unordered lists
+3. Identify the ordered list tag
+4. Create ordered lists
 
 ## Introduction
 
@@ -16,7 +16,7 @@ correct tags informs us of what the content's purpose is. If we see an `h1` tag,
 we know that we're looking at a _big_ page header. In this lesson, we're going to
 be looking at a few new tags that help us organize _lists_ of related content.
 
-## What are Unordered And Ordered HTML Lists?
+## Recognize Unordered And Ordered HTML Lists
 
 Lets say, for instance, we were building a personal website and wanted to list
 out our favorite foods. We _could_ write this like so:
@@ -94,7 +94,7 @@ a solid bullet, they will appear with hollow bullets, indicating a sublist.
 Adding nested list one level deeper will make _square_ bullets appear, allowing
 us to easily display related and nested content in a readable format.
 
-## Reinforce Our Understanding Of Unordered Lists Through Creation
+## Create Unordered Lists
 
 The first part of this challenge is to make the first 2 tests pass by:
 
@@ -120,7 +120,7 @@ unordered list that lists out the three types of cheese.
 If your first two tests are passing, great! It's time to talk about another type
 of list!
 
-## Introduce the Ordered List Tag
+## Identify the Ordered List Tag
 
 <p align="center">
   <img src="https://i.imgflip.com/28mpcx.jpg"/>
@@ -168,7 +168,7 @@ following example will be displayed the same as the previous:
 </ol>
 ```
 
-## Reinforce Our Understanding Of Ordered Lists Through Creation
+## Create Ordered Lists
 
 To complete the challenge write the necessary HTML to pass the tests:
 
