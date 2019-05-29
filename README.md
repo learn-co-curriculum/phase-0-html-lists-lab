@@ -90,7 +90,7 @@ categories and one or more items in _each_:
 ```
 
 In this example, the nested lists will now be _further_ indented and instead of
-a solid bullet, they will appear with hollow bullets, indicating a sublist.
+a solid bullet, they will appear with hollow bullets, indicating a sub-list.
 Adding nested list one level deeper will make _square_ bullets appear, allowing
 us to easily display related and nested content in a readable format.
 
@@ -150,7 +150,7 @@ might look like:
 > Grilled Cheese` as the #1 food (where it belongs).
 
 Nested ordered lists works the same as unordered, but instead of hollow and
-square bullets, each nested list will still display numebrs.
+square bullets, each nested list will still display numbers.
 
 **Note:** In a nested list, you _must_ provide the `ol` or `ul` wrapper.  Otherwise, an
 `li` inside another `li` will just be displayed as two items at the same level.
