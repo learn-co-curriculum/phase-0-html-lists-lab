@@ -8,9 +8,9 @@ RSpec.describe 'index.html' do
 
     children = ul.children.select {|child| child.name == "li"}
     expect(children.length).to be >= 3, "Your <ul> tag needs at least three <li> tags, one for each ingredient"
-    expect(children[0].text).to match(/2 slices of bread/)
-    expect(children[1]).to match(/4 slices of cheese/)
-    expect(children[2]).to match(/1 tbsp of butter/)
+    expect(children[0].text).to match("2 slices of bread")
+    expect(children[1].text).to match("4 slices of cheese")
+    expect(children[2].text).to match("1 tbsp of butter")
   end
 
 
@@ -32,11 +32,11 @@ RSpec.describe 'index.html' do
 
     children = ol.children.select {|child| child.name == "li"}
     expect(children.length).to be >= 5, "Your <ol> tag needs at least five nested <li> tags"
-    expect(children[0]).to match(/Spread butter on bread and frying pan/)
-    expect(children[1]).to match(/Place bread in frying pan and fry/)
-    expect(children[2]).to match(/Add cheese on top of bread/)
-    expect(children[3]).to match(/Cover with second slice of bread/)
-    expect(children[4]).to match(/Turn over and fry for 2 minutes/)
+    expect(children[0].text).to match("Spread butter on bread and frying pan")
+    expect(children[1].text).to match("Place bread in frying pan and fry")
+    expect(children[2].text).to match("Add cheese on top of bread")
+    expect(children[3].text).to match("Cover with second slice of bread")
+    expect(children[4].text).to match("Turn over and fry for 2 minutes")
 
   end
 end
