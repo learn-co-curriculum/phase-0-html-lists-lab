@@ -202,7 +202,4 @@ navigation links - with styling, we make the content look however we want:
 remove the bullets, make them line up horizontally, but in our HTML they will
 still be organized and easy to read.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-lists' title='HTML Lists'>HTML Lists</a> on Learn.co and start learning to code for free.</p>
-
-
 
