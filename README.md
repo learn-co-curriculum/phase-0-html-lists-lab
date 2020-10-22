@@ -96,9 +96,7 @@ us to easily display related and nested content in a readable format.
 
 ## Create Unordered Lists
 
-<p align="center">
-  <img width="500" src="https://curriculum-content.s3.amazonaws.com/html-fundamendals/html-lists-lab/Image_62_HTML%20Lab_Recipe.png"/>
-</p>
+![recipe list](https://curriculum-content.s3.amazonaws.com/html-fundamendals/html-lists-lab/Image_62_HTML%20Lab_Recipe.png)
 
 The first part of this challenge is to make the first 2 tests pass by:
 
