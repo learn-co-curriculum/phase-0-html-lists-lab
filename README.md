@@ -124,9 +124,7 @@ of list!
 
 ## Identify the Ordered List Tag
 
-<p align="center">
-  <img src="https://i.imgflip.com/28mpcx.jpg"/>
-</p>
+![](https://i.imgflip.com/28mpcx.jpg)
 
 Unordered lists are great for organizing related content where it doesn't matter
 what goes first, like in our grilled cheese ingredients.  In situations where we
