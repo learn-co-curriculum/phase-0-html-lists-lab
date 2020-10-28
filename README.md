@@ -103,8 +103,9 @@ The first part of this challenge is to make the first 2 tests pass by:
 1. Creating an unordered list 
 2. Nesting each grilled cheese ingredient as a list item wrapped in `<li>` tags
 
-Start up `httpserver` or open `index.html` in your browser. Let's say we wanted
-to list out the ingredients required for making a grilled cheese sandwich.  The
+Open `index.html` in your browser (if you are using the Learn in-browser IDE, run `httpserver`).
+
+Let's say we wanted to list out the ingredients required for making a grilled cheese sandwich.  The
 ingredients are: `2 slices of bread`, `4 slices of cheese`, `1 tbsp of butter`.
 
 For the first part of this challenge, in `index.html`, create an unordered list
