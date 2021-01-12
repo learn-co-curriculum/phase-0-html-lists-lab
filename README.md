@@ -16,6 +16,12 @@ correct tags informs us of what the content's purpose is. If we see an `h1` tag,
 we know that we're looking at a _big_ page header. In this lesson, we're going to
 be looking at a few new tags that help us organize _lists_ of related content.
 
+## Getting Started
+
+Fork and clone this lesson into your local environment. Navigate into its directory
+in the terminal, then run `code .` to open the files in Visual Studio Code. Finally,
+run `bundle` to install the lab's dependencies.
+
 ## Recognize Unordered And Ordered HTML Lists
 
 Lets say, for instance, we were building a personal website and wanted to list
@@ -153,7 +159,7 @@ might look like:
 Nested ordered lists works the same as unordered, but instead of hollow and
 square bullets, each nested list will still display numbers.
 
-**Note:** In a nested list, you _must_ provide the `ol` or `ul` wrapper.  Otherwise, an
+> **Note:** In a nested list, you _must_ provide the `ol` or `ul` wrapper.  Otherwise, an
 `li` inside another `li` will just be displayed as two items at the same level.
 This is because technically, you do not need to write a closing `li` tag.  The
 following example will be displayed the same as the previous:
@@ -184,10 +190,10 @@ with a square of butter. The steps to making a basic grilled cheese would be:
 `Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and
 fry for 2 minutes`
 
-***
-Once you've written an ordered list that displays these 5 steps correctly, run `learn test` 
+## Run the Tests
+
+Once you've written an ordered list that displays these 5 steps correctly, run `rspec` 
 to see the tests pass.
-***
 
 ## Conclusion
 
