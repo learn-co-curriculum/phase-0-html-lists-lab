@@ -109,13 +109,13 @@ The first part of this challenge is to make the first 2 tests pass by:
 1. Creating an unordered list 
 2. Nesting each grilled cheese ingredient as a list item wrapped in `<li>` tags
 
-Open `index.html` in your browser (if you are using the Learn in-browser IDE, run `httpserver`).
+Open `index.html` in your browser.
 
 Let's say we wanted to list out the ingredients required for making a grilled cheese sandwich.  The
 ingredients are: `2 slices of bread`, `4 slices of cheese`, `1 tbsp of butter`.
 
 For the first part of this challenge, in `index.html`, create an unordered list
-that displays these ingredients. Run `learn test` to see if you can pass the first
+that displays these ingredients. Run `rspec` to see if you can pass the first
 test. If you've done things correctly, you'll now be passing the first test,
 but there are more tests to pass! We now need to turn our attention to the next
 test.
