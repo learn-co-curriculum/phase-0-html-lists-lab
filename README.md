@@ -152,14 +152,14 @@ might look like:
 </ol>
 ```
 
-> Feel free to test this out by adding it to `index.html`, saving and refreshing
-> the tab where the file is open. Now, `Grilled Cheese` will be displayed as `1.
-> Grilled Cheese` as the #1 food (where it belongs).
+**Top Tip:** Feel free to test this out by adding it to `index.html`, saving and
+refreshing the tab where the file is open. Now, `Grilled Cheese` will be displayed
+as `1. Grilled Cheese` as the #1 food (where it belongs).
 
 Nested ordered lists works the same as unordered, but instead of hollow and
 square bullets, each nested list will still display numbers.
 
-> **Note:** In a nested list, you _must_ provide the `ol` or `ul` wrapper.  Otherwise, an
+**Note:** In a nested list, you _must_ provide the `ol` or `ul` wrapper.  Otherwise, an
 `li` inside another `li` will just be displayed as two items at the same level.
 This is because technically, you do not need to write a closing `li` tag.  The
 following example will be displayed the same as the previous:
