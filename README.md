@@ -24,7 +24,7 @@ run `bundle` to install the lab's dependencies.
 
 ## Recognize Unordered And Ordered HTML Lists
 
-Lets say, for instance, we were building a personal website and wanted to list
+Let's say, for instance, we were building a personal website and wanted to list
 out our favorite foods. We _could_ write this like so:
 
 ```html
@@ -47,7 +47,7 @@ In HTML, we create lists using the `<ul>` tag, which stands for _unordered
 list_, along with the `<li>` tag for each _list item_.
 
 To make a list, we write out the opening and closing `<ul>` tags, and inside
-them, we'll add `<li>` tags, each listing a single month. Going back to our
+them, we'll add `<li>` tags, each listing a single item. Going back to our
 favorite foods example, if we wanted convert it to a list, it would look like
 this:
 
@@ -97,7 +97,7 @@ categories and one or more items in _each_:
 
 In this example, the nested lists will now be _further_ indented and instead of
 a solid bullet, they will appear with hollow bullets, indicating a sub-list.
-Adding nested list one level deeper will make _square_ bullets appear, allowing
+Adding a nested list one level deeper will make _square_ bullets appear, allowing
 us to easily display related and nested content in a readable format.
 
 ## Create Unordered Lists
@@ -156,7 +156,7 @@ might look like:
 refreshing the tab where the file is open. Now, `Grilled Cheese` will be displayed
 as `1. Grilled Cheese` as the #1 food (where it belongs).
 
-Nested ordered lists works the same as unordered, but instead of hollow and
+Nested ordered lists work the same as unordered, but instead of hollow and
 square bullets, each nested list will still display numbers.
 
 **Note:** In a nested list, you _must_ provide the `ol` or `ul` wrapper.  Otherwise, an
@@ -183,12 +183,12 @@ To complete the challenge write the necessary HTML to pass the tests:
 4. Nest each step for creating grilled cheese as a list item wrapped in `<li>` tags
 
 Okay, so we've got our grilled cheese ingredients, but what about the steps
-requires to make a grilled cheese? Steps to a recipe need to be
+required to make a grilled cheese? Steps to a recipe need to be
 in order, otherwise we may end up with burnt cheese covered in bread and topped
 with a square of butter. The steps to making a basic grilled cheese would be:
 `Spread butter on bread and frying pan`, `Place bread in frying pan and fry`,
 `Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and
-fry for 2 minutes`
+fry for 2 minutes`.
 
 ## Run the Tests
 
@@ -214,7 +214,7 @@ recent commit, and your solution will be present in the files.
 ## Conclusion
 
 Lists in HTML are very useful for organizing related content, and are really the
-only way indicate that content is related with basic HTML.  Using unordered
+only way to indicate that content is related with basic HTML.  Using unordered
 lists ends up being very useful for more than just listing favorite foods and
 ingredients.  Its possible, for instance, to use list elements to organize
 navigation links - with styling, we make the content look however we want:
