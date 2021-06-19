@@ -106,7 +106,7 @@ us to easily display related and nested content in a readable format.
 
 The first part of this challenge is to make the first 2 tests pass by:
 
-1. Creating an unordered list 
+1. Creating an unordered list
 2. Nesting each grilled cheese ingredient as a list item wrapped in `<li>` tags
 
 Open `index.html` in your browser.
@@ -123,11 +123,22 @@ test.
 Okay, now, lets say we wanted to make our grilled cheese a little more exciting
 and add a couple of cheeses, `cheddar`, `mozzarella`, and `pepper jack`.
 
-To pass the second test, inside the `li` of `4 slices of cheese`, add a nested
-unordered list that lists out the three types of cheese.
+To pass the second test, **inside** the `li` with `4 slices of cheese`, add a
+**nested** unordered list that lists out the three types of cheese.
 
-If your first two tests are passing, great! It's time to talk about another type
-of list!
+After editing your `index.html` file, go back to the browser and refresh the page
+you opened earlier. You should see something like this if you've set up your lists
+correctly:
+
+- 2 slices of bread
+- 4 slices of cheese
+  - cheddar
+  - mozzarella
+  - pepper jack
+- 1 tbsp of butter
+
+Run `rspec` again. If your first two tests are passing, great! It's time to talk
+about another type of list!
 
 ## Identify the Ordered List Tag
 
@@ -159,28 +170,16 @@ as `1. Grilled Cheese` as the #1 food (where it belongs).
 Nested ordered lists work the same as unordered, but instead of hollow and
 square bullets, each nested list will still display numbers.
 
-**Note:** In a nested list, you _must_ provide the `ol` or `ul` wrapper.  Otherwise, an
-`li` inside another `li` will just be displayed as two items at the same level.
-This is because technically, you do not need to write a closing `li` tag.  The
-following example will be displayed the same as the previous:
-
-```HTML
-<h3>Top 5 Favorite Foods</h3>
-<ol>
-  <li>Grilled Cheese
-  <li>Sushi
-  <li>Cheese and crackers
-  <li>Cheese soup
-  <li>Nacho Cheese French Fries
-</ol>
-```
+**Note:** To create a nested list, you _must_ provide the `ol` or `ul` wrapper.
+Otherwise, an `li` inside another `li` will just be displayed as two items at
+the same level.
 
 ## Create Ordered Lists
 
-To complete the challenge write the necessary HTML to pass the tests:
+To complete the challenge write the necessary HTML to pass the final test:
 
-3. Create an ordered list 
-4. Nest each step for creating grilled cheese as a list item wrapped in `<li>` tags
+3. Create an ordered list with each step for creating grilled cheese as a list
+   item wrapped in `<li>` tags
 
 Okay, so we've got our grilled cheese ingredients, but what about the steps
 required to make a grilled cheese? Steps to a recipe need to be
@@ -190,10 +189,17 @@ with a square of butter. The steps to making a basic grilled cheese would be:
 `Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and
 fry for 2 minutes`.
 
-## Run the Tests
+After editing your `index.html` file, go back to the browser and refresh the page
+you opened earlier. Your newly added list should look like this:
 
-Once you've written an ordered list that displays these 5 steps correctly, run `rspec` 
-to see the tests pass.
+1. Spread butter on bread and frying pan
+2. Place bread in frying pan and fry
+3. Add cheese on top of bread
+4. Cover with second slice of bread
+5. Turn over and fry for 2 minutes
+
+Once you've written an ordered list that displays these 5 steps correctly, run
+`rspec` to see the tests pass.
 
 ## Saving Your Work Remotely
 
@@ -220,5 +226,3 @@ ingredients.  Its possible, for instance, to use list elements to organize
 navigation links - with styling, we make the content look however we want:
 remove the bullets, make them line up horizontally, but in our HTML they will
 still be organized and easy to read.
-
-
