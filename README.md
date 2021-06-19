@@ -167,6 +167,10 @@ might look like:
 refreshing the tab where the file is open. Now, `Grilled Cheese` will be displayed
 as `1. Grilled Cheese` as the #1 food (where it belongs).
 
+Once you've got a feel for how this ordered list looks in HTML and how it's
+displayed in the browser, delete the example code from your `index.html` file so
+you can create a new one from scratch for the next deliverable.
+
 Nested ordered lists work the same as unordered, but instead of hollow and
 square bullets, each nested list will still display numbers.
 
