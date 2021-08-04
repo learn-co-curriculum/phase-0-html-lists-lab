@@ -2,25 +2,26 @@
 
 ## Learning Goals
 
-1. Recognize unordered and ordered HTML Lists
-2. Create unordered lists
-3. Identify the ordered list tag
-4. Create ordered lists
+- Recognize unordered and ordered HTML Lists
+- Create unordered lists
+- Identify the ordered list tag
+- Create ordered lists
 
 ## Introduction
 
 Many HTML tags behave in unique ways. Some apply automatic styling, like `p`
-tags that create margins around text.  Some, like the header tags, increase the
+tags that create margins around text. Some, like the header tags, increase the
 font size. Using these tags delineates our content. When reading HTML, using the
 correct tags informs us of what the content's purpose is. If we see an `h1` tag,
-we know that we're looking at a _big_ page header. In this lesson, we're going to
-be looking at a few new tags that help us organize _lists_ of related content.
+we know that we're looking at a _big_ page header. In this lesson, we're going
+to be looking at a few new tags that help us organize _lists_ of related
+content.
 
 ## Getting Started
 
-Fork and clone this lesson into your local environment. Navigate into its directory
-in the terminal, then run `code .` to open the files in Visual Studio Code. Finally,
-run `bundle` to install the lab's dependencies.
+Fork and clone this lesson into your local environment. Navigate into its
+directory in the terminal, then run `code .` to open the files in Visual Studio
+Code. Finally, run `bundle` to install the lab's dependencies.
 
 ## Recognize Unordered And Ordered HTML Lists
 
@@ -39,7 +40,7 @@ out our favorite foods. We _could_ write this like so:
 ```
 
 The above would create a new line on the page for each food, but doesn't really
-indicate that these things are related.  Using the built in `ul`, `ol` and `li`
+indicate that these things are related. Using the built in `ul`, `ol` and `li`
 HTML tags however, we can group related list content together. We call such a
 grouping a "list."
 
@@ -51,7 +52,7 @@ them, we'll add `<li>` tags, each listing a single item. Going back to our
 favorite foods example, if we wanted convert it to a list, it would look like
 this:
 
-```HTML
+```html
 <ul>
   <li>Ham and Cheese</li>
   <li>Grilled Cheese</li>
@@ -69,26 +70,30 @@ Lists are very flexible and we can even nest lists _inside_ of lists. Say we
 wanted to breakdown our favorite foods by category. We may have multiple
 categories and one or more items in _each_:
 
-```HTML
+```html
 <ul>
-  <li>Sandwiches
+  <li>
+    Sandwiches
     <ul>
       <li>Ham and Cheese</li>
       <li>Grilled Cheese</li>
     </ul>
   </li>
-  <li>Snacks
+  <li>
+    Snacks
     <ul>
       <li>Nacho Cheese French Fries</li>
       <li>Cheese and crackers</li>
     </ul>
   </li>
-  <li>Soups
+  <li>
+    Soups
     <ul>
       <li>Cheese soup</li>
     </ul>
   </li>
-  <li>Sushi
+  <li>
+    Sushi
     <ul>
       <li>Spicy Salmon Rolls</li>
       <li>California Rolls</li>
@@ -99,8 +104,8 @@ categories and one or more items in _each_:
 
 In this example, the nested lists will now be _further_ indented and instead of
 a solid bullet, they will appear with hollow bullets, indicating a sub-list.
-Adding a nested list one level deeper will make _square_ bullets appear, allowing
-us to easily display related and nested content in a readable format.
+Adding a nested list one level deeper will make _square_ bullets appear,
+allowing us to easily display related and nested content in a readable format.
 
 ## Create Unordered Lists
 
@@ -113,13 +118,14 @@ The first part of this challenge is to make the first 2 tests pass by:
 
 Open `index.html` in your browser.
 
-Let's say we wanted to list out the ingredients required for making a grilled cheese sandwich.  The
-ingredients are: `2 slices of bread`, `4 slices of cheese`, `1 tbsp of butter`.
+Let's say we wanted to list out the ingredients required for making a grilled
+cheese sandwich. The ingredients are: `2 slices of bread`, `4 slices of cheese`,
+`1 tbsp of butter`.
 
 For the first part of this challenge, in `index.html`, create an unordered list
 that displays these ingredients. Run `rspec` to see if you can pass the first
-test. If you've done things correctly, you'll now be passing the first test,
-but there are more tests to pass! We now need to turn our attention to the next
+test. If you've done things correctly, you'll now be passing the first test, but
+there are more tests to pass! We now need to turn our attention to the next
 test.
 
 Okay, now, lets say we wanted to make our grilled cheese a little more exciting
@@ -128,9 +134,9 @@ and add a couple of cheeses, `cheddar`, `mozzarella`, and `pepper jack`.
 To pass the second test, **inside** the `li` with `4 slices of cheese`, add a
 **nested** unordered list that lists out the three types of cheese.
 
-After editing your `index.html` file, go back to the browser and refresh the page
-you opened earlier. You should see something like this if you've set up your lists
-correctly:
+After editing your `index.html` file, go back to the browser and refresh the
+page you opened earlier. You should see something like this if you've set up
+your lists correctly:
 
 - 2 slices of bread
 - 4 slices of cheese
@@ -144,17 +150,15 @@ about another type of list!
 
 ## Identify the Ordered List Tag
 
-![](https://i.imgflip.com/28mpcx.jpg)
-
 Unordered lists are great for organizing related content where it doesn't matter
-what goes first, like in our grilled cheese ingredients.  In situations where we
+what goes first, like in our grilled cheese ingredients. In situations where we
 _want_ items to be displayed in a specific, numbered order, we will want to use
 the _ordered list_ tag, which is written as `<ol>` instead of `<ul>`. Both use
 `<li>` tags inside, but this time, `<ol>` will display a numbered list instead
 of bullets. If say, we wanted to write a _ranked_ list of favorite foods, it
 might look like:
 
-```HTML
+```html
 <h3>Top 5 Favorite Foods</h3>
 <ol>
   <li>Grilled Cheese</li>
@@ -166,8 +170,8 @@ might look like:
 ```
 
 **Top Tip:** Feel free to test this out by adding it to `index.html`, saving and
-refreshing the tab where the file is open. Now, `Grilled Cheese` will be displayed
-as `1. Grilled Cheese` as the #1 food (where it belongs).
+refreshing the tab where the file is open. Now, `Grilled Cheese` will be
+displayed as `1. Grilled Cheese` as the #1 food (where it belongs).
 
 Once you've got a feel for how this ordered list looks in HTML and how it's
 displayed in the browser, delete the example code from your `index.html` file so
@@ -184,19 +188,18 @@ the same level.
 
 To complete the challenge write the necessary HTML to pass the final test:
 
-3. Create an ordered list with each step for creating grilled cheese as a list
-   item wrapped in `<li>` tags
+- Create an ordered list with each step for creating grilled cheese as a list
+  item wrapped in `<li>` tags
 
 Okay, so we've got our grilled cheese ingredients, but what about the steps
-required to make a grilled cheese? Steps to a recipe need to be
-in order, otherwise we may end up with burnt cheese covered in bread and topped
-with a square of butter. The steps to making a basic grilled cheese would be:
+required to make a grilled cheese? Steps to a recipe need to be in order,
+otherwise we may end up with burnt cheese covered in bread and topped with a
+square of butter. The steps to making a basic grilled cheese would be:
 `Spread butter on bread and frying pan`, `Place bread in frying pan and fry`,
-`Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and
-fry for 2 minutes`.
+`Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and fry for 2 minutes`.
 
-After editing your `index.html` file, go back to the browser and refresh the page
-you opened earlier. Your newly added list should look like this:
+After editing your `index.html` file, go back to the browser and refresh the
+page you opened earlier. Your newly added list should look like this:
 
 1. Spread butter on bread and frying pan
 2. Place bread in frying pan and fry
@@ -211,8 +214,8 @@ Once you've written an ordered list that displays these 5 steps correctly, run
 
 Currently, the work you've done on this assignment is only on your local
 machine. To preserve work on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use
-the following commands to do this:
+changes you've made, commit them, and push the commit up to GitHub. Use the
+following commands to do this:
 
 ```sh
 git add .
@@ -226,9 +229,9 @@ recent commit, and your solution will be present in the files.
 ## Conclusion
 
 Lists in HTML are very useful for organizing related content, and are really the
-only way to indicate that content is related with basic HTML.  Using unordered
+only way to indicate that content is related with basic HTML. Using unordered
 lists ends up being very useful for more than just listing favorite foods and
-ingredients.  Its possible, for instance, to use list elements to organize
+ingredients. Its possible, for instance, to use list elements to organize
 navigation links - with styling, we make the content look however we want:
 remove the bullets, make them line up horizontally, but in our HTML they will
 still be organized and easy to read.
