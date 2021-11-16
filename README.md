@@ -21,7 +21,7 @@ content.
 
 Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Finally, run `bundle` to install the lab's dependencies.
+Code. Finally, run `npm install` to install the lab's dependencies.
 
 ## Recognize Unordered And Ordered HTML Lists
 
@@ -196,7 +196,8 @@ required to make a grilled cheese? Steps to a recipe need to be in order,
 otherwise we may end up with burnt cheese covered in bread and topped with a
 square of butter. The steps to making a basic grilled cheese would be:
 `Spread butter on bread and frying pan`, `Place bread in frying pan and fry`,
-`Add cheese on top of bread`, `Cover with second slice of bread`, `Turn over and fry for 2 minutes`.
+`Add cheese on top of bread`, `Cover with second slice of bread`,
+`Turn over and fry for 2 minutes`.
 
 After editing your `index.html` file, go back to the browser and refresh the
 page you opened earlier. Your newly added list should look like this:
@@ -208,7 +209,7 @@ page you opened earlier. Your newly added list should look like this:
 5. Turn over and fry for 2 minutes
 
 Once you've written an ordered list that displays these 5 steps correctly, run
-`rspec` to see the tests pass.
+`npm test` to see the tests pass.
 
 ## Saving Your Work Remotely
 

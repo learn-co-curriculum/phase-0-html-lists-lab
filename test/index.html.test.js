@@ -46,12 +46,11 @@ describe("index.html", () => {
     it("has five child <li> tags with the correct content", () => {
       // find all direct child <li> elements in the <ul>
       const ol = document.querySelector("ol");
-      const lis = ol.children;
+      const lis = ol.querySelectorAll("li");
       expect(lis).to.have.lengthOf(
         5,
         "the <ol> should have five <li> elements"
       );
-      expect(lis[0].tagName).to.eq("LI");
       expect(lis[0].textContent).to.contain(
         "Spread butter on bread and frying pan"
       );
