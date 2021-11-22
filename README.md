@@ -123,7 +123,7 @@ cheese sandwich. The ingredients are: `2 slices of bread`, `4 slices of cheese`,
 `1 tbsp of butter`.
 
 For the first part of this challenge, in `index.html`, create an unordered list
-that displays these ingredients. Run `rspec` to see if you can pass the first
+that displays these ingredients. Run `npm test` to see if you can pass the first
 test. If you've done things correctly, you'll now be passing the first test, but
 there are more tests to pass! We now need to turn our attention to the next
 test.
@@ -145,8 +145,8 @@ your lists correctly:
   - pepper jack
 - 1 tbsp of butter
 
-Run `rspec` again. If your first two tests are passing, great! It's time to talk
-about another type of list!
+Run `npm test` again. If your first two tests are passing, great! It's time to
+talk about another type of list!
 
 ## Identify the Ordered List Tag
 
