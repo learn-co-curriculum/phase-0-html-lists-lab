@@ -49,7 +49,7 @@ list_, along with the `<li>` tag for each _list item_.
 
 To make a list, we write out the opening and closing `<ul>` tags, and inside
 them, we'll add `<li>` tags, each listing a single item. Going back to our
-favorite foods example, if we wanted convert it to a list, it would look like
+favorite foods example, if we wanted to convert it to a list, it would look like
 this:
 
 ```html
@@ -67,7 +67,7 @@ Now, instead of just having each item show up on a new line, the content will
 also be slightly indented and a bullet will appear next to each of them.
 
 Lists are very flexible and we can even nest lists _inside_ of lists. Say we
-wanted to breakdown our favorite foods by category. We may have multiple
+wanted to break down our favorite foods by category. We may have multiple
 categories and one or more items in _each_:
 
 ```html
@@ -232,7 +232,7 @@ recent commit, and your solution will be present in the files.
 Lists in HTML are very useful for organizing related content, and are really the
 only way to indicate that content is related with basic HTML. Using unordered
 lists ends up being very useful for more than just listing favorite foods and
-ingredients. Its possible, for instance, to use list elements to organize
-navigation links - with styling, we make the content look however we want:
-remove the bullets, make them line up horizontally, but in our HTML they will
+ingredients. It's possible, for instance, to use list elements to organize
+navigation links. With styling, we make the content look however we want —
+remove the bullets, make them line up horizontally — but in our HTML they will
 still be organized and easy to read.
