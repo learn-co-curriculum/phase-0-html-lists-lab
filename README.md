@@ -30,10 +30,10 @@ out our favorite foods. We _could_ write this like so:
 
 ```html
 <body>
-  <p>Ham and Cheese</p>
+  <p>Bahn Mi</p>
   <p>Grilled Cheese</p>
-  <p>Nacho Cheese French Fries</p>
-  <p>Cheese soup</p>
+  <p>Baba Ghanoush</p>
+  <p>Tomato soup</p>
   <p>Cheese and crackers</p>
   <p>Sushi</p>
 </body>
@@ -54,11 +54,11 @@ this:
 
 ```html
 <ul>
-  <li>Ham and Cheese</li>
+  <li>Bahn Mi</li>
   <li>Grilled Cheese</li>
-  <li>Nacho Cheese French Fries</li>
-  <li>Cheese soup</li>
-  <li>Cheese and crackers</li>
+  <li>Baba Ghanoush</li>
+  <li>Tomato soup</li>
+  <li>Za’atar Bread</li>
   <li>Sushi</li>
 </ul>
 ```
@@ -75,28 +75,28 @@ categories and one or more items in _each_:
   <li>
     Sandwiches
     <ul>
-      <li>Ham and Cheese</li>
+      <li>Bahn Mi</li>
       <li>Grilled Cheese</li>
     </ul>
   </li>
   <li>
     Snacks
     <ul>
-      <li>Nacho Cheese French Fries</li>
-      <li>Cheese and crackers</li>
+      <li>Baba Ghanoush</li>
+      <li>Za’atar Bread</li>
     </ul>
   </li>
   <li>
     Soups
     <ul>
-      <li>Cheese soup</li>
+      <li>Tomato soup</li>
     </ul>
   </li>
   <li>
     Sushi
     <ul>
-      <li>Spicy Salmon Rolls</li>
-      <li>California Rolls</li>
+      <li>Sashimi</li>
+      <li>Uramaki</li>
     </ul>
   </li>
 </ul>
@@ -163,9 +163,9 @@ might look like:
 <ol>
   <li>Grilled Cheese</li>
   <li>Sushi</li>
-  <li>Cheese and crackers</li>
-  <li>Cheese soup</li>
-  <li>Nacho Cheese French Fries</li>
+  <li>Bahn Mi</li>
+  <li>Tomato soup</li>
+  <li>Baba Ghanoush</li>
 </ol>
 ```
 
