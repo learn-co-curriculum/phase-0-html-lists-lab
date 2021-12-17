@@ -21,7 +21,7 @@ content.
 
 Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Finally, run `npm install` to install the lab's dependencies.
+Code.
 
 ## Recognize Unordered And Ordered HTML Lists
 
@@ -123,7 +123,7 @@ cheese sandwich. The ingredients are: `2 slices of bread`, `4 slices of cheese`,
 `1 tbsp of butter`.
 
 For the first part of this challenge, in `index.html`, create an unordered list
-that displays these ingredients. Run `npm test` to see if you can pass the first
+that displays these ingredients. Run `learn test` to see if you can pass the first
 test. If you've done things correctly, you'll now be passing the first test, but
 there are more tests to pass! We now need to turn our attention to the next
 test.
@@ -145,7 +145,7 @@ your lists correctly:
   - pepper jack
 - 1 tbsp of butter
 
-Run `npm test` again. If your first two tests are passing, great! It's time to
+Run `learn test` again. If your first two tests are passing, great! It's time to
 talk about another type of list!
 
 ## Identify the Ordered List Tag
@@ -209,23 +209,7 @@ page you opened earlier. Your newly added list should look like this:
 5. Turn over and fry for 2 minutes
 
 Once you've written an ordered list that displays these 5 steps correctly, run
-`npm test` to see the tests pass.
-
-## Saving Your Work Remotely
-
-Currently, the work you've done on this assignment is only on your local
-machine. To preserve work on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use the
-following commands to do this:
-
-```console
-$ git add .
-$ git commit -m "Completed assignment"
-$ git push
-```
-
-If you visit your fork on GitHub, you should now see that _you've_ made the most
-recent commit, and your solution will be present in the files.
+`learn test` to see the tests pass.
 
 ## Conclusion
 
