@@ -55,9 +55,9 @@ describe("the <ul> tag", () => {
         <li>
           4 slices of cheese
           <ul>
-            <li>Cheddar</li>
-            <li>Swiss</li>
-            <li>Gouda</li>
+            <li>cheddar</li>
+            <li>mozzarella</li>
+            <li>pepper jack</li>
           </ul>
         </li>
       </ul>
