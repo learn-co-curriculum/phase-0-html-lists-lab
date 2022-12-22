@@ -19,7 +19,7 @@ content.
 
 ## Getting Started
 
-Fork and clone this lesson into your local environment. Navigate into its
+**Fork and clone** this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
 Code.
 
@@ -123,7 +123,7 @@ cheese sandwich. The ingredients are: `2 slices of bread`, `4 slices of cheese`,
 `1 tbsp of butter`.
 
 For the first part of this challenge, in `index.html`, create an unordered list
-that displays these ingredients. Run `learn test` to see if you can pass the first
+that displays these ingredients. Run `npm test` to see if you can pass the first
 test. If you've done things correctly, you'll now be passing the first test, but
 there are more tests to pass! We now need to turn our attention to the next
 test.
@@ -145,7 +145,7 @@ your lists correctly:
   - pepper jack
 - 1 tbsp of butter
 
-Run `learn test` again. If your first two tests are passing, great! It's time to
+Run `npm test` again. If your first two tests are passing, great! It's time to
 talk about another type of list!
 
 ## Identify the Ordered List Tag
@@ -209,7 +209,7 @@ page you opened earlier. Your newly added list should look like this:
 5. Turn over and fry for 2 minutes
 
 Once you've written an ordered list that displays these 5 steps correctly, run
-`learn test` to see the tests pass.
+`npm test` to see the tests pass.
 
 ## Conclusion
 
