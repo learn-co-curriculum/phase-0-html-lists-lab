@@ -30,7 +30,7 @@ out our favorite foods. We _could_ write this like so:
 
 ```html
 <body>
-  <p>Bahn Mi</p>
+  <p>Banh Mi</p>
   <p>Grilled Cheese</p>
   <p>Baba Ghanoush</p>
   <p>Tomato soup</p>
@@ -54,7 +54,7 @@ this:
 
 ```html
 <ul>
-  <li>Bahn Mi</li>
+  <li>Banh Mi</li>
   <li>Grilled Cheese</li>
   <li>Baba Ghanoush</li>
   <li>Tomato soup</li>
@@ -75,7 +75,7 @@ categories and one or more items in _each_:
   <li>
     Sandwiches
     <ul>
-      <li>Bahn Mi</li>
+      <li>Banh Mi</li>
       <li>Grilled Cheese</li>
     </ul>
   </li>
@@ -163,7 +163,7 @@ might look like:
 <ol>
   <li>Grilled Cheese</li>
   <li>Sushi</li>
-  <li>Bahn Mi</li>
+  <li>Banh Mi</li>
   <li>Tomato soup</li>
   <li>Baba Ghanoush</li>
 </ol>
